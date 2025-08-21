@@ -1,0 +1,85 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# --- Virtualenv ---
+.venv/
+venv/
+env/
+ENV/
+.env
+*.pyc
+.specstory
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb~
+
+# --- OS crap ---
+.DS_Store
+Thumbs.db
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Docker / Compose ---
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+.env
+.env.*
+
+# --- Airflow ---
+airflow/logs/
+airflow/logs/*
+airflow/dags/__pycache__/
+*.airflowignore
+
+# --- Airbyte ---
+airbyte_data/
+airbyte_db_data/
+airbyte_workspace/
+
+# --- MinIO / Data Lake ---
+minio_data/
+datalake/
+*.parquet
+*.csv
+*.jsonl
+*.avro
+
+# --- Postgres ---
+pg_data/
+*.sql~
+*.dump
+
+# --- OCR Evaluation outputs ---
+ocr_eval/out/
+ocr_eval/*.csv
+ocr_eval/*.md
+
+# --- Monitoring ---
+grafana_data/
+prometheus_data/
+
+# --- Node/Frontend (if later) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Misc ---
+*.swp
+*.bak
+*.tmp
+*.lock
